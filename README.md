@@ -27,11 +27,16 @@ Npm: https://www.npmjs.com/
 
 ## 3 - Feita a instalação do npm, é necessário digitar o comando npm start, para abrir a aplicação, que estará disponível em http://localhost:3000 em seu computador.
 
+![image](https://user-images.githubusercontent.com/45500959/117379242-6b6fdb00-aead-11eb-9460-576540e04dbe.png)
+
 
 ## 📦 Status da aplicação
 
 🚧  Finalizado 🚧
+
 Vídeo demo: https://youtu.be/TFcGidtVUOk
+
+Acesse a aplicação: https://truco-lucbm99.vercel.app/
 
 
 
