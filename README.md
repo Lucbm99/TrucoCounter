@@ -1,74 +1,63 @@
-# Getting Started with Create React App
+# Placar - Jogo de Truco
+Projeto feito para estudos, utilizando ReactJS, para um contador de truco mineiro e paulista. 
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## 🚀 Instruções 
+Para que você veja o código do projeto funcionando em sua máquina, serão disponibilizadas algumas instruções no tópico 🔧 Como rodar o projeto? 
 
-## Available Scripts
+### 📋 Pré-requisitos
+Para isso, você irá precisar basicamente ter um editor de código em sua máquina (Visual Studio Code, Sublime Text, etc), um navegador para acesso (Google Chrome, Opera, Mozilla Firefox) e, para versionar o código, ter o Git instalado. Pode ser utilizado o prompt de comando de seu computador, da mesma forma. Além deles, será necessário ter o Node.js instalado e o gerenciador de pacotes NPM também.
 
-In the project directory, you can run:
+Links úteis: 
 
-### `yarn start`
+VS Code: https://code.visualstudio.com/
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+Git: https://git-scm.com/
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+Sublime Text: https://www.sublimetext.com/
 
-### `yarn test`
+NodeJS: https://nodejs.org/en/
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Npm: https://www.npmjs.com/
 
-### `yarn build`
+### 🔧 Como rodar o projeto? 
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## 1 - Primeiro faça o clone desse repositório com o comando: git clone https://github.com/Lucbm99/TrucoCounter.git, com o prompt de comando ou o Git Bash, em qualquer pasta de seu computador.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## 2 - Após isso, deverá ser digitado no terminal na pasta de seu projeto, o comando npm install.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## 3 - Feita a instalação do npm, é necessário digitar o comando npm start, para abrir a aplicação, que estará disponível em http://localhost:3000 em seu computador.
 
-### `yarn eject`
+![image](https://user-images.githubusercontent.com/45500959/117379242-6b6fdb00-aead-11eb-9460-576540e04dbe.png)
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## 📦 Status da aplicação
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+🚧  Finalizado 🚧
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+Vídeo demo: https://youtu.be/TFcGidtVUOk
 
-## Learn More
+Acesse a aplicação: https://truco-lucbm99.vercel.app/
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
 
-### Code Splitting
+## 🛠️ Feito com
+* [NodeJS](https://nodejs.org/en/)
+* [ReactJS](https://reactjs.org/docs/getting-started.html)
+* [Git](https://git-scm.com/downloads)
+* [NPM](https://www.npmjs.com/)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## ✒️ Licença 
+Consulte o arquivo LICENSE.md, para maiores detalhes.
 
-### Analyzing the Bundle Size
+## ✒️ Autores
+Contador (placar) feito por mim - [Lucbm99](https://github.com/Lucbm99)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
 
-### Making a Progressive Web App
+## 🎁 Agradecimentos
+Contador (placar) feito para estudos, que aprendi muito bem. Obrigado a todos e a Deus pela oportunidade!
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
 
-### Advanced Configuration
+---
+⌨️ com ❤️ por [Lucas Baradel](https://github.com/Lucbm99) 😊
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
 
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
-# Calculadora-MB-GB
-# TrucoCounter
-# TrucoCounter
-# TrucoCounter
