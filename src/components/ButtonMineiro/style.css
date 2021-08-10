@@ -28,7 +28,8 @@
   border: 1px solid #fff;
 }
 .buttons-player-1,
-.buttons-player-2 {
+.buttons-player-2, 
+.restart-1, .restart-2 {
   display: flex;
   justify-content: center;
 }
@@ -44,6 +45,20 @@
   cursor: pointer;
   width: 8%;
 }
+
+.restart-1 button, 
+.restart-2 button {
+  border: 1px solid rgba(0, 0, 0, 0.05);
+  border-radius: 15px;
+  color: #fff;
+  background-color: #111;
+  margin: 0rem 2rem 2rem 1.2rem;
+  font-size: 1rem;
+  outline: 0;
+  cursor: pointer;
+  width: 8%;
+}
+
 button:hover {
   transition: all ease 0.2s;
   background-color: #ff2400;
@@ -53,6 +68,11 @@ button:hover {
 @media (min-width: 320px) and (max-width: 675px) {
   .title {
     font-size: 1rem;
+  }
+  .restart-1 button, 
+  .restart-2 button {
+    width: 45%;
+    margin-top: 20px;
   }
   .player-1 h4,
   .player-2 h4 {
@@ -92,4 +112,13 @@ button:hover {
 }
 .victories-player-2 {
   margin-left: 3rem;
+}
+
+
+@media(min-width: 768px) and (max-width: 1024px) {
+  .restart-1 button, 
+  .restart-2 button {
+    width: 35%;
+    margin-top: 20px;
+  }
 }

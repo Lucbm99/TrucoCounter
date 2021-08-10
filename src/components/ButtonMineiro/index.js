@@ -19,7 +19,7 @@ function Button() {
             setMorePlayer2(0);
             setVictoriesPlayer1(victoriesplayer1+1);
         }
-    }, [morePlayer1]);
+    }, [morePlayer1, morePlayer2, victoriesplayer1]);
 
 
     //more player 2
@@ -33,7 +33,7 @@ function Button() {
             setMorePlayer2(0);            
             setVictoriesPlayer2(victoriesplayer2+1);
         }
-    }, [morePlayer2]);
+    }, [morePlayer1, morePlayer2, victoriesplayer2]);
 
 
     //minus player 1
@@ -73,7 +73,14 @@ function Button() {
     function handleMoreNinePlayer2() {
         setMorePlayer2(morePlayer2+9);
     }
+    
+    function handleRestartPlayer1() {
+        setMorePlayer1(0);
+    }
 
+    function handleRestartPlayer2() {
+        setMorePlayer2(0);
+    }
     return <div>
         <main>
             <div className="player-1">
@@ -86,6 +93,9 @@ function Button() {
                     <button onClick={handleMoreSixPlayer1}>+6</button>
                     <button onClick={handleMoreNinePlayer1}>+9</button>
                 </div>
+                <div className="restart-1">
+                    <button onClick={handleRestartPlayer1}>Zerar placar</button>
+                </div> 
             </div>
             <div className="player-2">
                 <h1>Jogador 2</h1>
@@ -96,6 +106,9 @@ function Button() {
                     <button onClick={handleMoreThreePlayer2}>+3</button>
                     <button onClick={handleMoreSixPlayer2}>+6</button>
                     <button onClick={handleMoreNinePlayer2}>+9</button>
+                </div>
+                <div className="restart-2">
+                    <button onClick={handleRestartPlayer2}>Zerar placar</button>
                 </div>
             </div>
         </main>
