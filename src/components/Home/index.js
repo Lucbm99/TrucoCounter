@@ -35,10 +35,10 @@ function Home() {
                     : ''
                 }
                 {isPaulist &&
-                    <Link to="/TrucoPaulista" className="links" onClick={() => handleTrucoPaulista()}>Truco paulista</Link>
+                    <Link to="/TrucoPaulista" className="links" onClick={() => handleTrucoPaulista()}>Placar até 15 pontos</Link>
                 }
                 {isMineiro &&
-                    <Link to="/TrucoMineiro" className="links" onClick={() => handleTrucoMineiro()}>Truco mineiro</Link> 
+                    <Link to="/TrucoMineiro" className="links" onClick={() => handleTrucoMineiro()}>Placar até 12 pontos</Link> 
                 } 
                 <Switch>
                 <Route path="/TrucoMineiro">
