@@ -53,10 +53,6 @@ Consulte o arquivo LICENSE.md, para maiores detalhes.
 Contador (placar) feito por mim - [Lucbm99](https://github.com/Lucbm99)
 
 
-## 🎁 Agradecimentos
-Contador (placar) feito para estudos, que aprendi muito bem. Obrigado a todos e a Deus pela oportunidade!
-
-
 ---
 ⌨️ com ❤️ por [Lucas Baradel](https://github.com/Lucbm99) 😊
 
