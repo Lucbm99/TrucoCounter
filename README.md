@@ -36,7 +36,7 @@ Npm: https://www.npmjs.com/
 
 Vídeo demo: https://youtu.be/TFcGidtVUOk
 
-Acesse a aplicação: https://truco-lucbm99.vercel.app/
+Acesse a aplicação: https://truco-lucbm99.vercel.app
 
 
 
